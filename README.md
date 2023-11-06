@@ -48,14 +48,17 @@ Siga as etapas abaixo para configurar e executar o projeto em seu ambiente local
 | MySQL | Sistema de gerenciamento de banco de dados |
 | React | Biblioteca JavaScript para construção da interface do usuário |
 
-
-### 🔧 Instalação
-
-1. Clone este repositório em sua máquina local:
-
 ### Yarn
 
+Para iniciar o projeto com o comando yarn start, primeiro você deve instalar as dependências do projeto. Use o comando a seguir no diretório do projeto:
+```
+yarn install
+```
+Após instalar as dependências, você pode iniciar o projeto com o comando yarn start. 
 
+```
+yarn start
+```
 
 ## Back-End (Node.js)
 
