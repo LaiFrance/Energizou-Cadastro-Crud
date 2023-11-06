@@ -38,11 +38,11 @@ Siga as etapas abaixo para configurar e executar o projeto em seu ambiente local
 O back-end é um servidor Node.js que fornece uma API RESTful para gerenciar empresas e funcionários (CRUD).
 
 ### Endpoints
-- `POST /`: Cria uma nova empresa.
-- `GET /`: Lista todas as empresas cadastradas.
-- `GET /:id`: Consulta uma empresa específica por CNPJ.
-- `PUT /:id`: Atualiza os dados de uma empresa.
-- `DELETE /:id`: Exclui uma empresa.
+- `POST /`: Cria uma usuario.
+- `GET /`: Lista todos os usuários
+- `GET /:id`: Consulta um usuario especifico.
+- `PUT /:id`: Atualiza o usuario.
+- `DELETE /:id`: Exclui o usuario.
 
 - `POST /empresa`: Cria uma nova empresa.
 - `GET /empresas`: Lista todas as empresas cadastradas.
