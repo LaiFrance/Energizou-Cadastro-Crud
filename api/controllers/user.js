@@ -14,14 +14,13 @@ const getUsers = (_, res) => {
 
 const addUser = (req, res) => {
     const q =
-      "INSERT INTO usuarios(`nome`, `email`, `fone`, `data_nascimento`, `data_entrada`) VALUES (?, ?, ?, ?, ?)";
+      "INSERT INTO usuarios(`nome`, `email`, `fone`) VALUES (?, ?, ?)";
     
     const values = [
       req.body.nome,
       req.body.email,
       req.body.fone,
-      req.body.data_nascimento,
-      req.body.data_entrada,
+      
     ];
   
     db.query(q, values, (err) => {
@@ -34,14 +33,13 @@ const addUser = (req, res) => {
 
   const updateUser = (req, res) => {
     const q =
-      "UPDATE usuarios SET `nome` = ?, `email` = ?, `fone` = ?, `data_nascimento` = ?, `data_entrada` = ? WHERE `id` = ?";
+      "UPDATE usuarios SET `nome` = ?, `email` = ?, `fone` = ? WHERE `id` = ?";
   
     const values = [
       req.body.nome,
       req.body.email,
       req.body.fone,
-      req.body.data_nascimento,
-      req.body.data_entrada,
+      
       req.params.id,
     ];
   
