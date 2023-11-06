@@ -6,6 +6,20 @@
   <img src="https://github.com/LaiFrance/Cadastro-de-Clientes/assets/91226847/acb28c13-f9a3-4fbe-b07f-61aa04519744" width="200" height="200">
 </div>
 
+## Instruções de como executar o projeto na sua máquina local 
+Clone o repositório:
+Abra um terminal e navegue para o diretório onde você deseja clonar o repositório. Em seguida, execute o seguinte comando para clonar o repositório:
+
+```
+git clone git@github.com:LaiFrance/Energizou-Cadastro-Crud.git
+```
+
+Acesse o diretório do projeto:
+Use o comando cd para entrar no diretório do projeto recém-clonado:
+ ```
+cd Energizou-Cadastro-Crud
+```
+
  ## Instruções Gerais
 
 O projeto é dividido em duas partes: back-end e front-end
