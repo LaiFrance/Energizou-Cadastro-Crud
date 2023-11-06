@@ -28,6 +28,11 @@ cd Energizou-Cadastro-Crud
  ## Instruções Gerais
 
 O projeto é dividido em duas partes: back-end e front-end
+
+BACK-END : https://github.com/LaiFrance/Energizou-Cadastro-Crud/tree/master/api
+
+FRONT-END : https://github.com/LaiFrance/Energizou-Cadastro-Crud/tree/master/frontend
+
 ## 🚀 Começando
 
 Siga as etapas abaixo para configurar e executar o projeto em seu ambiente local.
