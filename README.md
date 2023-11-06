@@ -20,6 +20,11 @@ Use o comando cd para entrar no diretório do projeto recém-clonado:
 cd Energizou-Cadastro-Crud
 ```
 
+### Tabela Mysql do Projeto 
+
+![image](https://github.com/LaiFrance/Energizou-Cadastro-Crud/assets/91226847/66c0b458-4530-4f1a-85a9-974920f40e3f)
+
+
  ## Instruções Gerais
 
 O projeto é dividido em duas partes: back-end e front-end
